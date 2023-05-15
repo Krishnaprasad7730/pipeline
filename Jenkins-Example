@@ -4,7 +4,7 @@ pipeline {
      stages{
          stage('checkout') {
              steps {
-                 echo 'How is ur day'
+                 echo 'How '
 	      }
           }
        stage ('build')
