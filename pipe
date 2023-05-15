@@ -1,10 +1,25 @@
 pipeline {
-   agent any
-    stages {
-       stage('Hello') {
-          steps {
-      sh 'echo Hello '
-     }
-    }
+    agent any 
+  
+     stages{
+         stage('checkout') {
+             steps {
+                 echo 'How are you? '
+	      }
+          }
+       stage ('build')
+{
+        steps
+{
+echo 'Revert me back when you get this message!'
+}
+}
+stage ('deploy')
+{
+        steps
+{
+echo 'hi Karanam, I'm good and how about you!'
+}
    }
+     }
 }
