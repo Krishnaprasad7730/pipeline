@@ -4,21 +4,21 @@ pipeline {
      stages{
          stage('checkout') {
              steps {
-                 echo 'How '
+                 echo 'How are you? '
 	      }
           }
        stage ('build')
 {
         steps
 {
-echo 'How ?'
+echo 'Revert me back when you get this message!'
 }
 }
 stage ('deploy')
 {
         steps
 {
-echo 'hi Karanam'
+echo 'hi Karanam, I'm good and how about you!'
 }
    }
      }
