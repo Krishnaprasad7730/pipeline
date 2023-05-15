@@ -11,7 +11,7 @@ pipeline {
 {
         steps
 {
-echo 'How are you'
+echo 'How ?'
 }
 }
 stage ('deploy')
